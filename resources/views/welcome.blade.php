@@ -68,6 +68,7 @@
         </div>
         <div class="col-xs-12 col-md-6 col-md-offset-3">
             <form action="{{ route('register') }}" method="POST">
+                {{ csrf_field() }}
                 <div class="form-group">
                     <label for="name">Nome: </label>
                     <input type="text" class="form-control" name="name">
