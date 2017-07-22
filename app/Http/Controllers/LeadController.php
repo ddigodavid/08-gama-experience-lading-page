@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Lead;
+use App\Models\Lead;
 use Illuminate\Http\Request;
 
 class LeadController extends Controller
