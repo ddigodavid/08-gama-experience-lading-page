@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Lead;
 use Illuminate\Http\Request;
+use Redirect;
 
 class LeadController extends Controller
 {
@@ -14,7 +15,7 @@ class LeadController extends Controller
 
         Lead::create($data);
 
-        return view('welcome');
+        return Redirect::route('home');
     }
 
 }
