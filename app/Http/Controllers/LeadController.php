@@ -14,7 +14,7 @@ class LeadController extends Controller
 
         Lead::create($data);
 
-        return view('acknowledgment');
+        return view('welcome');
     }
 
 }

@@ -35,13 +35,12 @@
         .uno-3 {
             background: url('/images/uno_03.png') no-repeat;
             width: 100%;
-            height: 770px;
+            height: 1000px;
         }
         
         .uno-4 {
-            background: url('/images/uno_04.png') no-repeat;
             width: 100%;
-            height: 770px;
+            height: 100px;
         }
         
         .uno-5 {
